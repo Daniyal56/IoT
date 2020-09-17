@@ -1,0 +1,13 @@
+{
+    "configurations": [
+        {
+            "name": "Attach to Chrome",
+            "port": 9222,
+            "request": "attach",
+            "type": "pwa-chrome",
+            "webRoot": "${workspaceFolder}"
+        }
+    ]
+}$.getJSON('data.json', function(data) {
+    console.log('data',data);
+});
